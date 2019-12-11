@@ -1,0 +1,160 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+}
+
+.header {
+	background-color: #0d7619;
+	display: flex;
+	align-items: center;
+}
+
+
+.header .menu-menu-principal-container{
+	color: #fff;
+	font-size: medium;
+	margin-left: auto;
+}
+
+.header .menu-menu-principal-container ul li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 10px;
+}
+
+.navmain{
+	margin-left: auto;
+	margin-right: 15px;
+}
+
+.header .menu-menu-principal-container ul li a:hover, a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.banner {
+	
+	background-size: cover;
+
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 2.5rem;
+	padding: 10%;
+}
+
+.banner .inscription {
+	background-color: #0d7619;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.banner .banner-second-line {
+	text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4.5rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: -19rem;
+    margin-bottom: -0.5rem;
+    margin-top: 0.5rem;
+}
+
+.banner .banner-third-line {
+	text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4.5rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: -19rem;
+    margin-bottom: 3.5rem;
+    margin-top: 0.5rem;
+	color: #9acf64;
+}
+
+.conference {
+	text-align: center;
+    /* height: 45rem; */
+    /*background-color: dodgerblue;*/
+    /* padding-top: 27px; */
+    padding: 7% 20%;
+	background-color: whitesmoke;
+}
+
+ .conf {
+		text-transform: uppercase;
+    font-weight: 500;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    padding-bottom: -19rem;
+    margin-bottom: 3.5rem;
+    margin-top: 0.5rem;
+}
+
+.conference .text-conf {
+	padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 30px;
+    font-size: 3rem;
+	line-height: 5rem;
+}
+
+.fruit-sec {
+	height: 40rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.program{
+	    text-align: center;
+    /* height: 45rem; */
+    /* background-color: dodgerblue; */
+    /* padding-top: 27px; */
+    padding: 7% 20%;
+    background-color: whitesmoke;
+}
+
+
+
+.info_pra {
+	
+	
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 101% 148%;
+	background-position: center;
+}
+
+.info_pra .banniere_info{
+	width: 250px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+ 
+    /* background-color: green; */
+    margin-bottom: 0.5rem;
+    /* padding-bottom: 265px; */
+	color: white;
+	float: right;
+	    margin-top: 5rem;
+	margin-right: 3rem;
+	padding: 2rem 0;
+}
+
+
+#bande-verte {
+	background-color: green;
+	width: 500px;
+	height: 650px;
+	margin-left: 244px;
+	
+}
