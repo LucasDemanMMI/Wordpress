@@ -17,11 +17,14 @@ if ( have_posts() ) {
      * Il existe d'autres méthodes, par exemple pour afficher le Titre du contenu, on peut utiliser la méthode the_title()
      */
     the_content();
+	
 	  
+	$personne_img = get_field('personne');
 	$banner_background_img = get_field('banniere1');
 	$banner_fruit_sec = get_field('fruitsec');
 	$banner_info = get_field('banniereinfo');
 	$listeprogram1 = get_field('listeprogram1');
+	$listeprogram2 = get_field('listeprogram2');
 	/*var_dump($banner_background_img); */
 	
 ?>
@@ -37,18 +40,43 @@ if ( have_posts() ) {
 	<p class="text-conf"><?php the_field("textconf") ?> </p>
 </section>
 <section class="fruit-sec" style="background-image: url(<?php echo $banner_fruit_sec['url']; ?>)">
-
 </section>
+	
+	
 <section class="program">
+	<div class="pf">
 	<p class="conf"><?php the_field("titreprogram") ?></p>
+<div id="liste1">
 	<?php foreach($listeprogram1 as $program){ ?>
 		<div class="xxx"><?php echo $program['heure']; ?></div>
 		<?php echo $program['description']; ?>
 	<?php } ?>
-	
-	<div id="liste1"></div>
-	
+	</div>
+<div id="liste2">
+	<?php foreach($listeprogram2 as $program){ ?>
+		<div class="xxx"><?php echo $program['heure']; ?></div>
+		<?php echo $program['description']; ?>
+	<?php } ?>
+	</div>		
+	</div>
 </section>
+	
+	<section class="orateur">
+<p class="conf"> Les Orateurs</p>
+		<div id="pres-o">
+		<div id="personne1" style="background-image: url(<?php echo $personne_img['url']; ?>)"></div>
+		<div id="presentation-personne1"><?php the_field("nom1") ?></div>
+		<div id="personne2" style="background-image: url(<?php echo $personne_img['url']; ?>)"></div>
+		<div id="presentation-personne2"><?php the_field("nom2") ?></div>
+		<div id="personne3" style="background-image: url(<?php echo $personne_img['url']; ?>)"></div>
+		<div id="presentation-personne3"><?php the_field("nom3") ?></div>
+		<div id="personne4" style="background-image: url(<?php echo $personne_img['url']; ?>)"></div>
+		<div id="presentation-personne4"><?php the_field("nom4") ?></div>
+		<div id="personne5" style="background-image: url(<?php echo $personne_img['url']; ?>)"></div>
+		<div id="presentation-personne5"><?php the_field("nom5") ?></div>
+</div>
+	</section>
+	
 	
 <section class="info_pra" style="background-image: url(<?php echo $banner_info['url']; ?>)">
 	<div id="bande-verte">

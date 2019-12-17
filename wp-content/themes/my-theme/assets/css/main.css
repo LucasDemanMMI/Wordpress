@@ -96,6 +96,7 @@ body {
     padding-bottom: -19rem;
     margin-bottom: 3.5rem;
     margin-top: 0.5rem;
+	 text-align: center;
 }
 
 .conference .text-conf {
@@ -115,12 +116,12 @@ body {
 }
 
 .program{
-	    text-align: center;
+    text-align: center;
     /* height: 45rem; */
     /* background-color: dodgerblue; */
     /* padding-top: 27px; */
-    padding: 7% 20%;
-    background-color: whitesmoke;
+    padding: 5% 20%;
+
 }
 
 
@@ -157,4 +158,163 @@ body {
 	height: 650px;
 	margin-left: 244px;
 	
+}
+
+.program #liste1 {
+	font-size: 25px;
+	text-align: left;
+	position: absolute;
+}
+
+.program #liste2 {
+	    font-size: 25px;
+    text-align: right;
+    margin-bottom: 74px;
+}
+
+section.program {
+	background-color: #f4f5d7;
+}
+
+.orateur{
+	padding: 5% 10%;
+}
+
+.orateur #pres-o{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+		"A B C D E"
+		"1 2 3 4 5";
+}
+
+.orateur #pres-o #personne1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    grid-area: A;
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: #ccc;
+    /* border-radius: 3px; */
+	
+}
+
+.orateur #pres-o #personne2{
+	    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    grid-area: B;
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: #ccc;
+    /* border-radius: 3px; */
+}
+
+.orateur #pres-o #personne3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    grid-area: C;
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: #ccc;
+    /* border-radius: 3px; */
+}
+
+.orateur #pres-o #personne4{
+	    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    grid-area: D;
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: #ccc;
+    /* border-radius: 3px; */
+}
+
+.orateur #pres-o #personne5{
+	    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    grid-area: E;
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: #ccc;
+    /* border-radius: 3px; */
+}
+
+.orateur #pres-o #presentation-personne1{
+position: relative;
+    grid-area: "1";
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: #ccc; */
+    /* border-radius: 3px; */
+    font-size: x-large;
+}
+
+.orateur #pres-o #presentation-personne2{
+position: relative;
+    grid-area: "2";
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: #ccc; */
+    /* border-radius: 3px; */
+    font-size: x-large;
+}
+
+.orateur #pres-o #presentation-personne3{
+position: relative;
+    grid-area: "3";
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: #ccc; */
+    /* border-radius: 3px; */
+    font-size: x-large;
+}
+
+.orateur #pres-o #presentation-personne4{
+position: relative;
+    grid-area: "4";
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: #ccc; */
+    /* border-radius: 3px; */
+    font-size: x-large;
+}
+
+.orateur #pres-o #presentation-personne5{
+position: relative;
+    grid-area: "5";
+    align-content: center;
+    margin: 0 auto;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: #ccc; */
+    /* border-radius: 3px; */
+    font-size: x-large;
 }
